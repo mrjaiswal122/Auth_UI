@@ -1,7 +1,7 @@
 import React, { useState } from "react"; // Import React and useState hook
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import { RiLockPasswordLine } from "react-icons/ri"; // Import password icon
-import { FaRegEye, FaRegEyeSlash } from "react-icons/fa"; // Import visibility icons
+import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6"; // Import visibility icons
 import Error from "./Error"; // Import Error component for displaying messages
 
 const Login = () => {
