@@ -1,6 +1,6 @@
 # Account Management App
 
-#[Live Demo-Take a look](https://minimilistic-auth-ui.netlify.app/)
+#[Live Demo-Take a look](https://minimilistic-auth-ui.vercel.app/)
 
 ## Table of Contents
 - [Introduction](#introduction)
