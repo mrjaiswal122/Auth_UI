@@ -1,5 +1,7 @@
 # Account Management App
 
+[Live Demo](https://minimilistic-auth-ui.netlify.app/)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
