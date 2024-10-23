@@ -12,10 +12,10 @@ const Register = () => {
   const [location, setLocation] = useState("");
   const [age, setAge] = useState();
   const [gender, setGender] = useState("Select a gender");
-  const [bio,_] = useState("I'm a software developer passionate about creating user-friendly applications.");
-  const [twitter, setTwitter] = useState("");
-  const [github, setGithub] = useState("");
-  const[linkedin, setLinkedin] = useState("");
+  const bio="I'm a software developer passionate about creating user-friendly applications.";
+  const twitter= "";
+  const github="";
+  const linkedin="";
   const [toastMsg, setToastMsg] = useState('');
   const navigate = useNavigate();
 
@@ -27,7 +27,7 @@ const Register = () => {
       return;
     }
 
-    if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+    if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
       setToastMsg('Invalid email format.')
       return;
     }
