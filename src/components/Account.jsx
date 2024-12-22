@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaTwitter, FaLinkedin, FaGithub, FaUserCircle, FaSignOu
 import Error from './Error';
 
 const Account = () => {
-  // State for account information
+ 
   const [accountInfo, setAccountInfo] = useState({
     name: 'John Doe',
     age: '30',
